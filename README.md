@@ -1,1 +1,1 @@
-# springcloudstream-kafka-rabbit
+# spring cloud stream with kafka and rabbitMQ
