@@ -1,8 +1,8 @@
 <B>Strat Zookeeper server</B> <BR>
-zookeeper-server-start.bat D:\software\kafka_2.11-2.3.1\config\zookeeper.properties<BR>
+zookeeper-server-start.bat E:\kafka_2.13-2.8.1\config\zookeeper.properties<BR>
 
 <B>Strat Kafka server</B><BR>
-kafka-server-start.bat D:\software\kafka_2.11-2.3.1\config\server.properties<BR>
+kafka-server-start.bat E:\kafka_2.13-2.8.1\config\server.properties<BR>
 
 <B>Create Topic</B><BR>
 kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 -topic mytopic<BR>
