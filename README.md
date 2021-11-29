@@ -14,3 +14,5 @@ Channel — represents the communication pipe between messaging-middleware and t
 StreamListeners — message-handling methods in beans that will be automatically invoked on a message from the channel after the MessageConverter does the serialization/deserialization between middleware-specific events and domain object types / POJOs <br>
 Message Schemas — used for serialization and deserialization of messages, these schemas can be statically read from a location or loaded dynamically, supporting the evolution of domain object types
 
+------------------------------------
+
